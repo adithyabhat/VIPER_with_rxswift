@@ -3,31 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		019A5A8D24659E42007650BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A5A8C24659E42007650BD /* AppDelegate.swift */; };
-		019A5A8F24659E42007650BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A5A8E24659E42007650BD /* SceneDelegate.swift */; };
 		019A5A9424659E42007650BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019A5A9224659E42007650BD /* Main.storyboard */; };
 		019A5A9624659E45007650BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019A5A9524659E45007650BD /* Assets.xcassets */; };
 		019A5A9924659E45007650BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019A5A9724659E45007650BD /* LaunchScreen.storyboard */; };
-		019A5AA72466950B007650BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A5AA62466950A007650BD /* ViewController.swift */; };
-		20741492D8F0538A1C47FED3 /* Pods_VIPER_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318ACDADD217CBE02272D887 /* Pods_VIPER_Demo.framework */; };
+		01B8FD77247C38B200950C50 /* ImagesAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD76247C38B200950C50 /* ImagesAPIResponse.swift */; };
+		01B8FD79247C3A3400950C50 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD78247C3A3400950C50 /* TableViewController.swift */; };
+		01B8FD7C247C404900950C50 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 01B8FD7B247C404900950C50 /* RxSwift */; };
+		01B8FD7F247C407000950C50 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 01B8FD7E247C407000950C50 /* SDWebImage */; };
+		01B8FD81247CF4A900950C50 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD80247CF4A900950C50 /* Interactor.swift */; };
+		01B8FD83247CF4FE00950C50 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD82247CF4FE00950C50 /* Presenter.swift */; };
+		01B8FD85247CFEE800950C50 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD84247CFEE800950C50 /* ImageModel.swift */; };
+		01B8FD87247D001100950C50 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD86247D001100950C50 /* TableViewCell.swift */; };
+		01B8FD89247D018400950C50 /* APIModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD88247D018400950C50 /* APIModule.swift */; };
+		01B8FD8C247D025200950C50 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FD8B247D025200950C50 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		019A5A8924659E42007650BD /* VIPER Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		019A5A8C24659E42007650BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		019A5A8E24659E42007650BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		019A5A9324659E42007650BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		019A5A9524659E45007650BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019A5A9824659E45007650BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019A5A9A24659E45007650BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		019A5AA62466950A007650BD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		318ACDADD217CBE02272D887 /* Pods_VIPER_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D19F5ABE65A88FBDB799DEE /* Pods-VIPER Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER Demo.release.xcconfig"; path = "Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo.release.xcconfig"; sourceTree = "<group>"; };
-		E75DCCE5C993C735EA123DCF /* Pods-VIPER Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER Demo.debug.xcconfig"; path = "Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		01B8FD76247C38B200950C50 /* ImagesAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesAPIResponse.swift; sourceTree = "<group>"; };
+		01B8FD78247C3A3400950C50 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		01B8FD80247CF4A900950C50 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		01B8FD82247CF4FE00950C50 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		01B8FD84247CFEE800950C50 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		01B8FD86247D001100950C50 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		01B8FD88247D018400950C50 /* APIModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModule.swift; sourceTree = "<group>"; };
+		01B8FD8B247D025200950C50 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20741492D8F0538A1C47FED3 /* Pods_VIPER_Demo.framework in Frameworks */,
+				01B8FD7F247C407000950C50 /* SDWebImage in Frameworks */,
+				01B8FD7C247C404900950C50 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +59,6 @@
 				019A5A8B24659E42007650BD /* VIPER Demo */,
 				019A5A8A24659E42007650BD /* Products */,
 				5ADA8C819C293EF7AEFF2417 /* Pods */,
-				6F9CF5B079E289DE9A9F268D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,9 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				019A5A8C24659E42007650BD /* AppDelegate.swift */,
-				019A5A8E24659E42007650BD /* SceneDelegate.swift */,
-				019A5AA5246694DD007650BD /* Modules */,
+				01B8FD8A247D022E00950C50 /* Network Module */,
 				019A5A9224659E42007650BD /* Main.storyboard */,
+				019A5AA5246694DD007650BD /* Modules */,
 				019A5A9524659E45007650BD /* Assets.xcassets */,
 				019A5A9724659E45007650BD /* LaunchScreen.storyboard */,
 				019A5A9A24659E45007650BD /* Info.plist */,
@@ -77,7 +87,7 @@
 		019A5AA024669484007650BD /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				019A5AA62466950A007650BD /* ViewController.swift */,
+				01B8FD82247CF4FE00950C50 /* Presenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -85,6 +95,8 @@
 		019A5AA124669494007650BD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01B8FD78247C3A3400950C50 /* TableViewController.swift */,
+				01B8FD86247D001100950C50 /* TableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,6 +104,7 @@
 		019A5AA22466949C007650BD /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				01B8FD80247CF4A900950C50 /* Interactor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -99,6 +112,7 @@
 		019A5AA3246694B4007650BD /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				01B8FD84247CFEE800950C50 /* ImageModel.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -106,6 +120,7 @@
 		019A5AA4246694C6007650BD /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				01B8FD8B247D025200950C50 /* Router.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -122,21 +137,20 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
+		01B8FD8A247D022E00950C50 /* Network Module */ = {
+			isa = PBXGroup;
+			children = (
+				01B8FD88247D018400950C50 /* APIModule.swift */,
+				01B8FD76247C38B200950C50 /* ImagesAPIResponse.swift */,
+			);
+			path = "Network Module";
+			sourceTree = "<group>";
+		};
 		5ADA8C819C293EF7AEFF2417 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E75DCCE5C993C735EA123DCF /* Pods-VIPER Demo.debug.xcconfig */,
-				3D19F5ABE65A88FBDB799DEE /* Pods-VIPER Demo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		6F9CF5B079E289DE9A9F268D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				318ACDADD217CBE02272D887 /* Pods_VIPER_Demo.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,17 +160,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 019A5A9D24659E45007650BD /* Build configuration list for PBXNativeTarget "VIPER Demo" */;
 			buildPhases = (
-				7CA0BDF03BBDE922DFC157F4 /* [CP] Check Pods Manifest.lock */,
 				019A5A8524659E42007650BD /* Sources */,
 				019A5A8624659E42007650BD /* Frameworks */,
 				019A5A8724659E42007650BD /* Resources */,
-				78CDE7F092AC08C9DA384DA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "VIPER Demo";
+			packageProductDependencies = (
+				01B8FD7B247C404900950C50 /* RxSwift */,
+				01B8FD7E247C407000950C50 /* SDWebImage */,
+			);
 			productName = "VIPER Demo";
 			productReference = 019A5A8924659E42007650BD /* VIPER Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +201,10 @@
 				Base,
 			);
 			mainGroup = 019A5A8024659E42007650BD;
+			packageReferences = (
+				01B8FD7A247C404900950C50 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				01B8FD7D247C406F00950C50 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 019A5A8A24659E42007650BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -207,56 +227,20 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		78CDE7F092AC08C9DA384DA8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIPER Demo/Pods-VIPER Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7CA0BDF03BBDE922DFC157F4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VIPER Demo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		019A5A8524659E42007650BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				019A5AA72466950B007650BD /* ViewController.swift in Sources */,
+				01B8FD83247CF4FE00950C50 /* Presenter.swift in Sources */,
+				01B8FD87247D001100950C50 /* TableViewCell.swift in Sources */,
+				01B8FD8C247D025200950C50 /* Router.swift in Sources */,
+				01B8FD89247D018400950C50 /* APIModule.swift in Sources */,
+				01B8FD77247C38B200950C50 /* ImagesAPIResponse.swift in Sources */,
 				019A5A8D24659E42007650BD /* AppDelegate.swift in Sources */,
-				019A5A8F24659E42007650BD /* SceneDelegate.swift in Sources */,
+				01B8FD81247CF4A900950C50 /* Interactor.swift in Sources */,
+				01B8FD79247C3A3400950C50 /* TableViewController.swift in Sources */,
+				01B8FD85247CFEE800950C50 /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +382,6 @@
 		};
 		019A5A9E24659E45007650BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E75DCCE5C993C735EA123DCF /* Pods-VIPER Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,7 +399,6 @@
 		};
 		019A5A9F24659E45007650BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D19F5ABE65A88FBDB799DEE /* Pods-VIPER Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +436,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01B8FD7A247C404900950C50 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		01B8FD7D247C406F00950C50 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01B8FD7B247C404900950C50 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01B8FD7A247C404900950C50 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		01B8FD7E247C407000950C50 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01B8FD7D247C406F00950C50 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 019A5A8124659E42007650BD /* Project object */;
 }
